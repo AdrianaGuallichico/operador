@@ -31,6 +31,14 @@ namespace operador
 
                 Console.WriteLine($"hola niña {nombre}eres menor de edad y tienes {edad}años");
 
+	    if (!(edad >= 16 && edad <= 60))
+            {
+                Console.WriteLine("Tu edad no está entre 16 y 60 años, por lo tanto no puedes votar");
+            }
+            else
+            {
+                Console.WriteLine("Si puedes votar en las elecciones del 2023");
+            }
 
             Console.ReadKey();
 
